@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#part{
+    position: relative;
+    width: 100;
+    height: 100%;
+    background-color: blue;
+    background-image: url(https://www.nrigroupindia.com/wp-content/uploads/2023/03/nri-slider4-min-1.jpg);
+    background-position: initial;
+    background-size: cover;
+    object-fit: cover;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.546);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+#heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+#heading h1{
+    color: white;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+#heading p{
+    color: white;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+#heading button{
+    padding: 15px 30px;
+    color: rgb(244, 242, 242);
+    background-color:  #123c4a;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+#scoll{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+ 
+    
+ }
+ @keyframes move {
+     from{
+         transform: translateY(0%);
+     }
+     to{
+         transform: translateY(100%);
+     }
+     
+ }
+ #scoll h5{
+    font-size: 20px;
+    color: white;
+ }
+ #scoll i{
+     font-size: 25px;
+     font-weight: 900;
+ }
+h2{
+    color:  #123c4a;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+p{
+    color:  #151515;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+#part2{
+    width: 100%;
+    height: 80%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+#box{
+    width: 100%;
+    height: 40%;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.company{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.company h4{
+    margin-top: 10px;
+    color: black;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.company p{
+    opacity: .5;
+    color: black;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.company button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(5, 46, 72);
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box2{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(255, 127, 187); */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#box4 {
+    margin-top: 10vw;
+    width: 100%;
+    height: 50%;
+    background-color: #123c4a;
+  }
+  #box4 h1 {
+    color: white;
+    font-size: 2.5vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  #icon {
+    display: flex;
+    flex-direction: column;
+  }
+  #icon1 {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  #icon1 i {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  #icon1 h4 {
+    color: white;
+    font-size: 1.5vw;
+  }
+  #box4 marquee{
+      color: white;
+      font-size: 25px;
+      margin-top: 70px;
+  }
+  
