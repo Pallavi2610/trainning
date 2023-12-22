@@ -1,91 +1,254 @@
-@font-face {
-    font-family: "mont";
-    src: url(Montserrat-Regular.ttf);
-}
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: "mont";
+    box-sizing: border-box;
+    color: antiquewhite;
+
 }
+
 html,
-body{
+body {
     width: 100%;
     height: 100%;
 }
 
-.one{
+#main {
     width: 100%;
     height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1542785853-cf202360bca0?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
-.overlay{
+#nav {
+    width: 100%;
+    height: 9vh;
+    padding: 2.5vw 3vw;
+    background-color: #123c4a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    top: -0%;
+    z-index: 999;
+    border: none;
+    text-decoration: none;
+}
+
+
+#tage a img{
+    height: 5vw;
+    margin-left: -1vw;
+}
+#tage1 {
+    font-size: 1.5vw;
+    font-weight: 600;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 3vw;
+    /* position:relative; */
+    /* top: 12%; */
+
+} 
+#tage1 a{
+    text-decoration: none;
+}
+#tage2 a button {
+    padding: 0.7vw 1.9vw;
+    border-radius: 5.6vw;
+    border: none;
+    font-size: 1.3vw;
+    font-weight: 400;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    gap: 12vw;
+    /* padding-right: 20vw; */
+    background-color:#110f9a;
+    color: white;
+    margin-right: 2vw;
+    /* position:relative;
+    top: 9%; */
+
+} 
+#tage #tage1:hover {
+    cursor: pointer;
+    color: brown;
+}
+#tage3 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    /* color: red; */
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    line-height: 1;
+}
+#tage3 h1 {
+    font-size: 9vw;
+    font-weight: 800;
+    font-family: "gilroy";
+    color: rgb(245, 248, 248);
+    /* color: red; */
+}
+#page1 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+}
+#page1 img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -3%;
+}
+#ban h1{
+    width: 59vw;
+    color:black;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    z-index: 99;
+    text-transform: uppercase;
+    font-size: 9vw;
+    font-weight:700;
+    line-height:7.8vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ban h2{
+    width: 59vw;
+    color:black;
+    position: absolute;
+    top: 66%;
+    left: 6%;
+    z-index: 99;
+    text-transform: uppercase;
+    font-size: .6vw;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 39vw;
+
+}
+
+#ban button{
+    padding: 1.1vw 2.6vw;
+    z-index: 99;
+    background-color:#110f9a;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    border-radius: 5vw;
+    font-size: 1vw;
+    border: none;
+}
+#nav2{
+    width: 100%;
+    height: 32vh;
+    background:linear-gradient(to bottom, transparent,#123c4ad0, #123c4a) ;
+    position: relative;
+    margin-top: -16vw;
+    display:flex;
+    color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+}
+#nav2 p{
+    font-size: 1.1vw;
+    font-weight: 600;
+    width: 69vw;
+    padding-top: 4vw;
+}
+#nav2 h1{
+    font-size: 2vw;
+    font-weight: 600;
+    padding-right: 6vw;
+    padding-top: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(237, 234, 231);
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    position: absolute;
+}
+#box{
+    /* width:22vw;
+    height:42vh;
+    background-color: blue; */
+    height: 20vw;
+    width: 28vw;
+    border-radius: 5px;
+    /* background-color:  #123c4a; */
+    border: 4px solid  #123c4a;
+    box-shadow:0px 3px 30px #123c4a;
     text-align: center;
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.532), black ); 
-    padding: 1px;
-}
-.overlay > h1{
-    font-size: 5vmax;
-    margin: 80px;
-    color: #fff;
-}
-.overlay button{
-    width: 150px;
-    height: 50px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 2px;
-    transition: all .2s ease;
-}
-    /* extra */
-.overlay button:hover{
-    background-color: #fff;
-    color: black;
-}
+    border: none;
+    outline: none;
+    position: relative;
+    top: -20%;
+    transition: all ease 56s;
 
-/* -------------------- */
+}
+#box img{
+    width: 28vw;
+    height: 20vw;
+    position: relative;
+}
+#box h1{
+    font-size: 3vw;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 61, 72);
+    padding-top: 1vw;
+}
+#box p{
+    font-size: 1.1vw;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 61, 72);
+    padding-top: 1vw;
+}
+/* #box4 {
+    
 
-.two{
+    margin-top: 10vw;
     width: 100%;
-    height: 100vh;
-    background-color: black;
-    text-align: start;
-}
-.overlay1{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.603), black ); 
-    padding: 1px;
-    text-align: start;
-}
-.overlay1 > p{
-    font-size: 90px;
+    height: 50%;
+    background-color: #123c4a;
+  }
+  #box4 h1 {
+    color: white;
+    font-size: 2.5vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  #icon {
+    display: flex;
+    flex-direction: column;
+  }
+  #icon1 {
+    display: flex;
+    gap: 30px;
     margin-top: 20px;
-    color: #fff; 
-    font-weight: 300;
-    margin-left: 50px;
-}
-.overlay1 button{
-    width: 150px;
-    height: 50px;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 2px;
-    transition: all .2s ease;
-    margin-left: 8px;
-}
- /* extra */
-.overlay1 button:hover{
-    background-color: #fff;
-    color: #000;
-}
+  }
+  #icon1 i {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  #icon1 h4 {
+    color: white;
+    font-size: 1.5vw;
+  }
+  #box4 marquee{
+      color: white;
+      font-size: 25px;
+      margin-top: 70px;
+  }
+  
+ */
