@@ -1,0 +1,186 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+#box {
+  width: 100%;
+  height: 70%;
+  background-color: #123c4a;
+}
+#box img {
+  width: 80%;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+#box2 {
+  width: 50%;
+  height: 45%;
+  background-color: rgb(239, 155, 10);
+  z-index: 999;
+  position: relative;
+  left: 33%;
+}
+#box2 h1 {
+  color: black;
+  font-size: 2.5vw;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1vw 4vw;
+}
+#box2 h2 {
+  color: black;
+  font-size: 1vw;
+  font-weight: 300;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1vw 4vw;
+}
+#box2 button {
+  border-radius: 50px;
+  border: none;
+  padding: 20px 30px;
+  background-color: #123c4a;
+  font-size: 15px;
+  color: white;
+  margin-left: 5vw;
+}
+#heading {
+  color: black;
+  font-size: 3vw;
+  font-weight: 600;
+  padding-left: 5vw;
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 4vw;
+}
+h3 {
+  width: 60vw;
+  color: rgb(71, 69, 69);
+  font-size: 1vw;
+  font-weight: 600;
+  padding-left: 5vw;
+  padding-top: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8vw;
+}
+.box3 {
+  display: flex;
+  gap: 30px;
+  margin-top: 5vw;
+  margin-left: 8vw;
+}
+#part1 {
+  width: 20vw;
+  height: 27vw;
+  background-color: rgb(231, 176, 9);
+  overflow: hidden;
+}
+#part1 h2 {
+  font-size: 2vw;
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#part1 h5 {
+  font-size: 1vw;
+  color: rgb(20, 19, 19);
+  margin-top: 20px;
+  margin-left: 5px;
+  line-height: 30px;
+}
+#part2 {
+  width: 20vw;
+  height: 27vw;
+  background-color: rgb(208, 206, 202);
+  background-image: url(https://www.nrigroupindia.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-16-at-4.29.14-PM-1-1024x997.jpeg);
+  background-position: left;
+  background-size: cover;
+  object-fit: cover;
+}
+/* #part2 img{
+    width: 20vw;
+    height: 100%;
+    background-size: cover;
+    
+    object-fit: cover;
+} */
+#part3 {
+  width: 20vw;
+  height: 27vw;
+  background-color: #123c4a;
+}
+#part3 h2 {
+  font-size: 2vw;
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#part3 h5 {
+  font-size: 1vw;
+  color: rgb(254, 252, 252);
+  margin-top: 20px;
+  margin-left: 5px;
+  line-height: 30px;
+}
+#part4 {
+  width: 20vw;
+  height: 27vw;
+  background-color: rgb(208, 206, 202);
+  background-image: url(https://media.collegedekho.com/media/img/institute/crawled_images/None/GFJFGJFJF.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#box4 {
+  margin-top: 10vw;
+  width: 100%;
+  height: 50%;
+  background-color: #123c4a;
+}
+#box4 h1 {
+  color: white;
+  font-size: 2.5vw;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+#icon {
+  display: flex;
+  flex-direction: column;
+}
+#icon1 {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+#icon1 i {
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+#icon1 h4 {
+  color: white;
+  font-size: 1.5vw;
+}
+#box4 marquee{
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+}
